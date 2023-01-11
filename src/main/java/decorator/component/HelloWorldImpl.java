@@ -1,4 +1,4 @@
-package decorator;
+package decorator.component;
 
 /**
  * Реализация декорируемого компонента. Возвращает строку-приветствие.

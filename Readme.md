@@ -8,4 +8,6 @@
 ## Содержание
 ### Структурные паттерны
 - [Decorator (Wrapper)](docs/Decorator(Wrapper).md)
-- 
+
+### Порождающие паттерны
+- [FactoryMethod (Virtual Constructor)](docs/FactoryMethod(VirtualConstructor).md)

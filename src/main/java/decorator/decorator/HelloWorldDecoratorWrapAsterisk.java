@@ -1,11 +1,13 @@
-package decorator;
+package decorator.decorator;
+
+import decorator.component.HelloWorld;
 
 /**
  * Декоратор, который окружает заданный в конструкторе объект звездочками
  */
 public class HelloWorldDecoratorWrapAsterisk extends HelloWorldDecorator{
 
-    HelloWorldDecoratorWrapAsterisk(HelloWorld helloWorld) {
+    public HelloWorldDecoratorWrapAsterisk(HelloWorld helloWorld) {
         super(helloWorld);
     }
 

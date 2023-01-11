@@ -1,10 +1,12 @@
-package decorator;
+package decorator.decorator;
+
+import decorator.component.HelloWorld;
 
 /**
  * Декоратор, который окружает заданный в конструкторе объект диезами.
  */
 public class HelloWorldDecoratorWrapDies extends HelloWorldDecorator{
-    HelloWorldDecoratorWrapDies(HelloWorld helloWorld) {
+    public HelloWorldDecoratorWrapDies(HelloWorld helloWorld) {
         super(helloWorld);
     }
 

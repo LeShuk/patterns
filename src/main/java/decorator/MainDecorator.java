@@ -1,5 +1,10 @@
 package decorator;
 
+import decorator.component.HelloWorld;
+import decorator.component.HelloWorldImpl;
+import decorator.decorator.HelloWorldDecoratorWrapAsterisk;
+import decorator.decorator.HelloWorldDecoratorWrapDies;
+
 public class MainDecorator {
     public static void main(String[] args) {
         //Все объекты - HelloWorld, инстанцированные соответствующими декораторами.
